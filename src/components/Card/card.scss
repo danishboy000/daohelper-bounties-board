@@ -1,0 +1,41 @@
+.cardCon{
+    color: #FFFFFF;
+    background-color: #5A4860;
+    padding-top: 1.25rem;
+    border-radius: 12px;
+    overflow: hidden;
+    width:244px;
+    height:205.5px;
+    box-sizing: border-box;
+
+    .title{
+        text-transform: capitalize;
+        font-weight: 700;
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+        margin-bottom: 1.25rem;
+        margin-top:0;
+    }
+
+    .description{
+        font-size: .875rem;
+        line-height: 1.25rem;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+        margin-bottom: 1rem;
+    }
+
+    .bottom{
+        font-weight: 600;
+        font-size: 13px;
+        padding-bottom: 0.5rem;
+        padding-top: 0.5rem;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
